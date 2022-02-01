@@ -1,0 +1,30 @@
+
+.todo-item{
+    border:1px solid #A5BECF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: inherit;
+}
+.btn-complete{
+    text-decoration: line-through;
+    opacity: .4;
+}
+.success{
+    color: #6BA56D;
+}
+.edit{
+    color:#acddac ;
+}
+.color-danger{
+    color: #DC3545;
+}
+
+.form-select{
+    width: auto;
+}

@@ -1,0 +1,26 @@
+.add-form{
+    margin: 10px auto;
+    border: 1px solid #A5BECF;
+    padding:15px 10px ;
+    background-color: #fff;
+}
+.add-bg{
+    width: 100%;
+    outline: 0;
+   text-align: center;
+   background-color: rgb(100, 159, 204);
+}
+.add-bg:hover{
+    background-color: rgba(100, 159, 204,0.95);
+}
+.input-group svg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+   
+}
+@media (max-width:320px) {
+    .add-item{
+        width:12%
+    }
+}
