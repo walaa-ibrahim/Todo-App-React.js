@@ -11,7 +11,7 @@ const TodoList = ({toDos,setToDos,filterStatus,setInputText,setStatus,setEdite,i
   return (
     <Fragment>
       <div className='d-flex justify-content-between'>
-        <h4 className='text-capitalize'>list item</h4>
+        <h4 className='text-capitalize '>list item</h4>
         <select onChange={statuesHandler} disabled={toDos.length===0?`disabled`:''} class="form-select" aria-label="Default select example">
           <option selected value="All">All</option>
           <option value="Completed">Completed</option>
