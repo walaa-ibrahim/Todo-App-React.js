@@ -13,14 +13,4 @@
 .add-bg:hover{
     background-color: rgba(100, 159, 204,0.95);
 }
-.input-group svg {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-   
-}
-@media (max-width:320px) {
-    .add-item{
-        width:12%
-    }
-}
+
